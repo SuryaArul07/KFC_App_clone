@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pickup.css">
+  <title>pick Up</title>
+</head>
+<body>
+  <center>
+  <div class="box">
+    <div class="smallbox">
+    <p id="address">SELECT A KFC</p>
+    <hr id="horizontal_line">
+    </div>
+
+    <p id="member">Already a member?<a href="signin.html" id="signin">Sign In</a></p>
+
+    <div class="location">
+    <img src="locationsym.svg">
+    <a href="#" id="location" onclick="getLocation(event)">Use My Location</a>
+    </div>
+
+    <div class="enteringloc">
+      <button id="button1">Enter your location here</button>
+      <button id="button2">Confirm</button>
+      <hr id="line">
+    </div>
+
+    <div>
+      <p id="italic"><i>5 KFC near you</i></p>
+      <div class="mapping">
+      <img src="map.svg" id="map">
+      <a href="" id="gmap">Map</a>
+    </div>
+    </div>
+  </div>
+  </center>
+  
+  <script>
+    function getLocation(event) {
+      event.preventDefault();
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+        alert("Geolocation is not supported by this browser.");
+      }
+    }
+  
+    function showPosition(position) {
+      const latitude = position.coords.latitude;
+      const longitude = position.coords.longitude;
+      alert("Latitude: " + latitude + "\nLongitude: " + longitude);
+    }
+  </script>
+  
+</body>
+</html>

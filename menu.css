@@ -1,0 +1,147 @@
+.top_box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white; 
+  z-index: 1000;
+}
+.top_box #kfc_logo{
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.top_box #menu{
+  margin-left: 250px;
+  margin-top: -19px;
+  position: absolute;
+  font-size:smaller;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.top_box #deals{
+  margin-left: 330px;
+  font-size:smaller;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  margin-top: -20px;
+}
+.top_box #account_icon{
+  margin-left: 1200px;
+  margin-top: -30px;
+  position:absolute
+}
+.top_box #sign_in{
+  position: absolute;
+  margin-left: 1250px;
+  margin-top: -35px;
+  font-size:medium;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.top_box #line{
+  position: relative;
+  font-size:xx-large;
+  margin-left: 1310px;
+  margin-top: -52px;
+  color: lightgray;
+}
+.top_box #rupees{
+  margin-left: 1340px;
+  margin-top: -53px;
+  font-weight: bold;
+}
+.top_box #bucket_cart_icon{
+  width:50px;
+  margin-left: 1360px;
+  margin-top: -50px;
+  position: absolute;
+}
+.top_box #zero{
+  margin-left: 1381px;
+  margin-top: -30px;
+  position: relative;
+  font-weight: bold;
+  font-size: small;
+}
+.location_box{
+  position: relative;
+  background-color: rgb(33, 33, 35);
+  height:70px;
+}
+.location_box #location_icon{
+  padding-left: 625px;
+  padding-top: 30px;
+}
+.location_box #location{
+  margin-top: -20px;
+  text-align: center;
+  color: white;
+  font-size:medium;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.location_box #clock{
+  padding-left: 885px;
+  position:absolute;
+  margin-top: -37px;
+}
+.location_box #asap{
+  padding-left: 912px;
+  color: white;
+  margin-top: -42px;
+  font-size:medium;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.location_box #button{
+  margin-left: 960px;
+  border-radius: 20px;
+  height: 30px;
+  border: 1px solid white;
+  position: absolute;
+  margin-top: -40px;
+  background-color: unset;
+  color: white;
+  font-size:smaller;
+  width: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#strips{
+  margin-left: 170px;
+  margin-top: -10px;
+  height: 40px;
+}
+#sidebar{
+  margin-left: 200px;
+  height: 500px;
+}
+#sidebar2{
+  width: 700px;
+}
+.side{
+  margin-left: 495px;
+}
+#button1{
+  position: absolute;
+  margin-top: 500px;
+  margin-left: -640px;
+  width:130px;
+  height: 30px;
+  background-color: transparent;
+  border-width: 0px;
+}
+#button2{
+  position: absolute;
+  margin-top: 500px;
+  margin-left: -310px;
+  width:130px;
+  height: 30px;
+  background-color: transparent;
+  border-width: 0px;
+}

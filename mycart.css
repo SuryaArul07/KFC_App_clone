@@ -1,0 +1,146 @@
+#mycart{
+  width:1000px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+#cart_strips{
+  margin-left: 170px;
+  margin-top: -640px;
+  height: 40px;
+}
+#cart_button{
+  position: absolute;
+  margin-top: 430px;
+  width:170px;
+  height: 30px;
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: -300px;
+}
+.footer{
+  background-color:rgb(33, 33, 35);;
+}
+.footer #stripes{
+  margin-left: 230px;
+  height: 45px;
+}
+.footer #offers{
+  font-size: xx-large;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 230px;
+  font-weight: bold;
+}
+.footer #deals{
+  color: white;
+  margin-left: 1200px;
+  position: relative;
+  top: -65px;
+}
+.card-text1{
+  color:red;
+  margin-top:-20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.card-title1{
+  font-size: smaller;
+}
+.footer #details{
+  color:rgb(86, 83, 83);
+  font-size: smaller;
+  font-weight: bold;
+}
+.footer #button{
+  margin-left: 10px;
+  width: 145px;
+  height:40px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+#kfc_pic{
+  margin-left: 130px;
+}
+.footer #p1{
+  color: white;
+  margin-left: 300px;
+  margin-top: -70px;
+  font-size: smaller;
+}
+.footer #ul1{
+  font-size: smaller;
+  margin-left: 267px;
+  margin-top: -10px;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+.footer #p2{
+  color: white;
+  margin-left: 500px;
+  margin-top: -120px;
+  font-size: smaller;
+}
+.footer #ul2{
+  font-size: smaller;
+  margin-left: 467px;
+  margin-top: -10px;
+}
+.footer #p3{
+  color: white;
+  margin-left: 660px;
+  margin-top: -120px;
+  font-size: smaller;
+}
+.footer #ul3{
+  font-size: smaller;
+  margin-left: 630px;
+  margin-top: -10px;
+}
+.footer #p4{
+  color: white;
+  margin-left: 840px;
+  margin-top: -125px;
+  font-size: smaller;
+}
+.footer #ul4{
+  font-size: smaller;
+  margin-left: 810px;
+  margin-top: -10px;
+}
+.footer #location{
+  margin-left: 1020px;
+  text-decoration: underline;
+  position: absolute;
+  margin-top: -125px;
+  font-size: smaller;
+}
+.footer #app_links{
+  margin-left: 1150px;
+  position: absolute;
+  margin-top: -130px;
+}
+.footer #social_media{
+  margin-left: 1250px;
+  position: absolute;
+  margin-top: -10px;
+  
+}
+#footer-below{
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+#button1, #button2, #button3{
+  text-decoration: none;
+}
+.footer-content{
+  margin-top: 100px;
+}
+.footer{
+  position: absolute;
+  height:400px;
+  width: 1520px;
+}

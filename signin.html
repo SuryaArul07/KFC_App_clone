@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+
+  <p id="sigin">Sign In / Sign up</p>
+  <center>
+  <a href="homepage.html"><img src="./images/KFC_logo.svg" id="kfc_logo"></a>
+  <p id="line">LET'S SIGN IN OR CREATE ACCOUNT WITH YOUR PHONE <br> NUMBER!</p>
+  </center>
+ 
+  <input type="text" id="input" placeholder="Phone Number*" oninput="validatePhoneNumber()">
+  <p id="terms">By "logging in to KYC",you agree to our <a href="#" id="a">Privacy Policy</a> and<a href="#" id="a1"> Terms & Conditions.</a></p>
+  <center>
+  <a href="code.html"><button id="button1" disabled>Send Me a Code</button></a>
+  <p id="or">or</p>
+  <a href = "homepage.html"><button id="button2" class="pointer">Skip, Continue As Guest</button> </a>
+  </center>
+
+<script>
+  function validatePhoneNumber() {
+    const input = document.getElementById('input');
+    const phoneNumber = input.value;
+    const button = document.getElementById('button1');
+    const pattern = /^[679]\d{9}$/;
+
+    if (!pattern.test(phoneNumber)) {
+      input.setCustomValidity('Please enter a valid 10 digit number');
+      input.reportValidity();
+      button.disabled = true;
+    } else {
+      input.setCustomValidity('');
+      button.disabled = false;
+    }
+  }
+</script>
+</body>
+</html>
